@@ -46,6 +46,7 @@ def insert_appsinstalled(memc_addr, appsinstalled, dry_run=False):
 
 
 def parse_appsinstalled(line):
+    line = line.decode()
     line_parts = line.strip().split("\t")
     if len(line_parts) < 5:
         return

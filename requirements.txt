@@ -1,0 +1,4 @@
+glob3==0.0.1
+protobuf==3.6.0
+python-memcached==1.59
+six==1.11.0
